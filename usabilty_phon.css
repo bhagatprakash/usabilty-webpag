@@ -1,0 +1,93 @@
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+  .nav_toggle {
+    display: block;
+    margin-right: 20px;
+  }
+  .main_nav {
+    overflow: initial;
+  }
+  .nav_link {
+    position: absolute;
+    background-color: white;
+    left: -100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 20px;
+  }
+  .nav_link.active {
+    left: 0;
+  }
+  .nav_link ul {
+    flex-direction: column;
+  }
+  .exmpal_card {
+    width: calc(40% -20px);
+    height: 180px;
+  }
+  .exampal_area {
+    gap: 10px;
+  }
+
+  .cta_section {
+    padding-block: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+  .header_section {
+    flex-direction: column-reverse;
+  }
+  .header_left {
+    max-width: 100vw;
+    text-align: center;
+  }
+  .hover_link_primary {
+    width: 100%;
+  }
+
+  .feture_card {
+    min-width: calc(50% -10px);
+  }
+  .big_feature_container,
+  #second_big_feature {
+    flex-direction: column;
+  }
+  .footer_container {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .link_colam {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 479px) {
+  :root {
+    --padding-inline-section: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .feture_card {
+    min-width: 100%;
+  }
+  .exmpal_card {
+    width: 100%;
+  }
+}
